@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1644
+
+Simply switches between .c/.cpp and .h/.hpp files, suitable for one-keystroke switching.
+Order of priority when looking for corresponding files:
+1) if .h file, seeks for .c first, then .cpp
+2) otherwise, seeks for .h first, then .hpp
+Inspired by vimtip #384. Not as complex as vimscript #31, but if you need only small amount of code ...
